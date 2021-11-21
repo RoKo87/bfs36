@@ -29,7 +29,7 @@ class Form {
     this.playButton.mousePressed(()=>{
       this.input.hide();
       this.playButton.hide();
-      var message = 'Hello ${this.input.value()} </br> wait'
+      var message = `Hello ${this.input.value()} </br> wait`
       this.greeting.html(message);
     });
   }
@@ -41,6 +41,3 @@ class Form {
   }
 
 }
-
-
-
